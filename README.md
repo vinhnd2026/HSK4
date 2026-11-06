@@ -16,7 +16,7 @@ từ **15/12/2026 (Thứ Ba)** đến **22/01/2027 (Thứ Sáu)**. Ngày cuối 
 | HSK 3 | 197 | 40 | [Mở](https://vinhnd2026.github.io/HSK3/) |
 | HSK 4 | 191 | 39 | [Mở](https://vinhnd2026.github.io/HSK4/) |
 | HSK 3 — bản theo ngày (Homework) | 198 | 36 | [Mở](https://vinhnd2026.github.io/Homework/) |
-| Trung cấp 1 | 266 | 54 | ⏳ đang hoàn thiện |
+| Trung cấp 1 | 266 | 54 | [Mở](https://vinhnd2026.github.io/TrungCap1/) |
 | Trung cấp 2 | 355 | 71 | ⏳ đang hoàn thiện |
 | Trung cấp 3 | 236 | 48 | ⏳ đang hoàn thiện |
 | Trung cấp 4 | 206 | 42 | ⏳ đang hoàn thiện |
