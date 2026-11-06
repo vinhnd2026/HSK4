@@ -7,6 +7,24 @@ từ **15/12/2026 (Thứ Ba)** đến **22/01/2027 (Thứ Sáu)**. Ngày cuối 
 
 **[https://vinhnd2026.github.io/HSK4/](https://vinhnd2026.github.io/HSK4/)**
 
+## 📚 Mục lục các khóa học
+
+| Khóa học | Từ mới | Số ngày | Trang học |
+|---|---|---|---|
+| HSK 1 | 178 | 36 | [Mở](https://vinhnd2026.github.io/HSK1/) |
+| HSK 2 | 213 | 43 | [Mở](https://vinhnd2026.github.io/HSK2/) |
+| HSK 3 | 197 | 40 | [Mở](https://vinhnd2026.github.io/HSK3/) |
+| HSK 4 | 191 | 39 | [Mở](https://vinhnd2026.github.io/HSK4/) |
+| HSK 3 — bản theo ngày (Homework) | 198 | 36 | [Mở](https://vinhnd2026.github.io/Homework/) |
+| Trung cấp 1 | 266 | 54 | ⏳ đang hoàn thiện |
+| Trung cấp 2 | 355 | 71 | ⏳ đang hoàn thiện |
+| Trung cấp 3 | 236 | 48 | ⏳ đang hoàn thiện |
+| Trung cấp 4 | 206 | 42 | ⏳ đang hoàn thiện |
+| Cao cấp 1 | 447 | 90 | ⏳ đang hoàn thiện |
+| Cao cấp 2 | 405 | 81 | ⏳ đang hoàn thiện |
+| Cao cấp 3 | 353 | 71 | ⏳ đang hoàn thiện |
+| Cao cấp 4 | 357 | 72 | ⏳ đang hoàn thiện |
+
 ## Bổ sung (học sau khi xong 39 ngày)
 
 - **📖 Ôn tập Ngữ pháp HSK 4 (40 điểm + 33 bài tập):** [Bai-Hoc-On-Ngu-Phap-HSK4.html](https://vinhnd2026.github.io/HSK4/Bai-Hoc-On-Ngu-Phap-HSK4.html) — pinyin hiện sẵn trong mọi ví dụ.
