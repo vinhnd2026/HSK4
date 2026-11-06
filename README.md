@@ -7,6 +7,11 @@ từ **15/12/2026 (Thứ Ba)** đến **22/01/2027 (Thứ Sáu)**. Ngày cuối 
 
 **[https://vinhnd2026.github.io/HSK4/](https://vinhnd2026.github.io/HSK4/)**
 
+## Bổ sung (học sau khi xong 39 ngày)
+
+- **📖 Ôn tập Ngữ pháp HSK 4 (40 điểm + 33 bài tập):** [Bai-Hoc-On-Ngu-Phap-HSK4.html](https://vinhnd2026.github.io/HSK4/Bai-Hoc-On-Ngu-Phap-HSK4.html) — pinyin hiện sẵn trong mọi ví dụ.
+- **📚 Bài Tổng Kết HSK 4 (ôn toàn bộ 191 từ):** [Bai-Hoc-Tong-Ket-HSK4.html](https://vinhnd2026.github.io/HSK4/Bai-Hoc-Tong-Ket-HSK4.html) — flashcard 190 thẻ, bảng từ vựng 10 bài, 8 bài tập tổng kết (62 bài tập), truyện tổng kết 112 câu dùng đủ toàn bộ từ vựng.
+
 Bấm vào từng ngày bên dưới để mở thẳng trang bài học của ngày đó.
 (Bài học được mở trực tiếp trên trình duyệt, không cần tải file về.)
 
