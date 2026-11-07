@@ -555,6 +555,7 @@ img, svg { max-width: 100%; }
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('火车比汽车小一点儿。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>火<rt>Huǒ</rt></ruby><ruby>车<rt>chē</rt></ruby><ruby>比<rt>bǐ</rt></ruby><ruby>汽<rt>qì</rt></ruby><ruby>车<rt>chē</rt></ruby><ruby>小<rt>xiǎo</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>点<rt>diǎn</rt></ruby><ruby>儿<rt>er</rt></ruby>。</span> <span class="hint">(Tàu hỏa nhỏ hơn ô tô một chút.)</span></div>
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('飞机比火车大一点儿。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>飞<rt>Fēi</rt></ruby><ruby>机<rt>jī</rt></ruby><ruby>比<rt>bǐ</rt></ruby><ruby>火<rt>huǒ</rt></ruby><ruby>车<rt>chē</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>点<rt>diǎn</rt></ruby><ruby>儿<rt>er</rt></ruby>。</span> <span class="hint">(Máy bay lớn hơn tàu hỏa một chút.)</span></div>
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('火车没有飞机大。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>火<rt>Huǒ</rt></ruby><ruby>车<rt>chē</rt></ruby><ruby>没<rt>méi</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>飞<rt>fēi</rt></ruby><ruby>机<rt>jī</rt></ruby><ruby>大<rt>dà</rt></ruby>。</span> <span class="hint">(Tàu hỏa không lớn bằng máy bay.)</span></div>
+
 <div class="q-item" id="gram-1">
 <div><b>1. Điền từ đúng vào chỗ trống:</b> 飞机<span class="gram-blank">......</span>汽车好一点儿。</div>
 <div class="mc-options">
@@ -588,22 +589,22 @@ img, svg { max-width: 100%; }
 <div class="card">
 <h2>🧩 Bài 6: Sắp xếp câu (连词成句) <span class="badge">Tư duy trật tự từ</span></h2>
 <div class="sub" style="margin-bottom:8px;">Chạm vào từng từ ở khung xám để ghép thành câu hoàn chỉnh:</div>
-<div class="scramble-box" id="scr-1" data-target="他每天早上开车去工作。">
-<div><b>Câu 1:</b> Anh ấy lái xe đi làm mỗi buổi sáng.</div>
+<div class="scramble-box" id="scr-1" data-target="他每天早上开车去工作，车开得很快。">
+<div><b>Câu 1:</b> Anh ấy lái xe đi làm mỗi buổi sáng, xe chạy rất nhanh.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="。|他|工作|早上|每天|开车|去"></div>
+<div class="word-bank" data-words="每天|工作|很|得|快|，|早上|。|他|去|开车|车|开"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
-<div class="scramble-box" id="scr-2" data-target="我们早上开始上课，很高兴。">
-<div><b>Câu 2:</b> Buổi sáng chúng tôi bắt đầu lên lớp, rất vui.</div>
+<div class="scramble-box" id="scr-2" data-target="我家有一辆车，这辆车比那辆车大一点儿。">
+<div><b>Câu 2:</b> Nhà tôi có một chiếc xe, chiếc xe này to hơn chiếc xe kia một chút.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="早上|很|上课|，|。|高兴|开始|我们"></div>
+<div class="word-bank" data-words="，|家|车|辆|辆|一点儿|这|车|车|比|。|有|那|大|辆|一|我"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
-<div class="scramble-box" id="scr-3" data-target="这里的东西是免费的，我很喜欢。">
-<div><b>Câu 3:</b> Đồ ở đây là miễn phí, tôi rất thích.</div>
+<div class="scramble-box" id="scr-3" data-target="这里的东西是免费的，我想开始学习。">
+<div><b>Câu 3:</b> Đồ ở đây là miễn phí, tôi muốn bắt đầu học tập.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="喜欢|的|免费|是|很|，|我|。|东西|的|这里"></div>
+<div class="word-bank" data-words="想|的|。|开始|东西|，|免费|我|是|的|这里|学习"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
 </div>
@@ -675,7 +676,7 @@ img, svg { max-width: 100%; }
 <div class="hint" id="dlg-voice-note" style="margin-top:4px;"></div>
 <div style="margin:8px 0;"><span class="hint">Nghe từng câu:</span> <button class="tts-btn" onclick="playDlgLine(0)">1</button> <button class="tts-btn" onclick="playDlgLine(1)">2</button> <button class="tts-btn" onclick="playDlgLine(2)">3</button> <button class="tts-btn" onclick="playDlgLine(3)">4</button> <button class="tts-btn" onclick="playDlgLine(4)">5</button> <button class="tts-btn" onclick="playDlgLine(5)">6</button></div>
 <div class="dlg-script" id="dlg-script" style="display:none">
-<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>公<rt>Gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby><ruby>免<rt>miǎn</rt></ruby><ruby>费<rt>fèi</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>明<rt>míng</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>起<rt>qǐ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>明<rt>míng</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>午<rt>wǔ</rt></ruby><ruby>去<rt>qù</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Công viên miễn phí, chúng ta đi công viên nhé? Ngày mai chúng ta cùng đi công viên nhé? Sáng mai chúng ta đi nhé?</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>公<rt>Gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby><ruby>免<rt>miǎn</rt></ruby><ruby>费<rt>fèi</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>明<rt>míng</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>午<rt>wǔ</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>起<rt>qǐ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Công viên miễn phí, sáng mai chúng ta cùng đi công viên nhé?</div></div>
 <div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>好<rt>Hǎo</rt></ruby>！<ruby>你<rt>nǐ</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>车<rt>chē</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>车<rt>chē</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>车<rt>chē</rt></ruby><ruby>去<rt>qù</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Được! Bạn lái xe à? Bạn lái xe đi công viên à? Bạn lái xe đi nhé?</div></div>
 <div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>我<rt>Wǒ</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>车<rt>chē</rt></ruby>。<ruby>你<rt>nǐ</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>车<rt>chē</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>车<rt>chē</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Tôi không lái xe. Bạn lái xe à? Bạn lái xe đi công viên nhé?</div></div>
 <div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>我<rt>Wǒ</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>车<rt>chē</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>辆<rt>liàng</rt></ruby><ruby>车<rt>chē</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>车<rt>chē</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>园<rt>yuán</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>我<rt>wǒ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>车<rt>chē</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>。</span><div class="dlg-vi">Tôi lái xe. Tôi có một chiếc xe. Tôi lái xe đi công viên nhé? Xe của tôi rất tốt.</div></div>
@@ -763,7 +764,7 @@ img, svg { max-width: 100%; }
 <p><b>Bài 3 (Ghép cặp):</b> 开 = kāi · 开车 = kāichē · 开始 = kāishǐ · 辆 = liàng · 免费 = miǎnfèi</p>
 <p><b>Bài 4 (Ngữ pháp):</b> 1. D — 比 &nbsp;|&nbsp; 2. 今天汽车没有飞机好。</p>
 <p><b>Bài 5 (Đoạn văn):</b> 开 → 开车 → 开始 → 辆 → 免费</p>
-<p><b>Bài 6 (Sắp xếp câu):</b><br>1. 他每天早上开车去工作。<br>2. 我们早上开始上课，很高兴。<br>3. 这里的东西是免费的，我很喜欢。</p>
+<p><b>Bài 6 (Sắp xếp câu):</b><br>1. 他每天早上开车去工作，车开得很快。<br>2. 我家有一辆车，这辆车比那辆车大一点儿。<br>3. 这里的东西是免费的，我想开始学习。</p>
 <p><b>Bài 7 (Đọc hiểu):</b> 1. A — 学校 &nbsp;|&nbsp; 2. A — 免费的 &nbsp;|&nbsp; 3. A — 开电视，看电影</p>
 <p><b>Bài 8 (Nghe hội thoại):</b> 1. A — 公园 &nbsp; 2. D — 小红 &nbsp; 3. C — 小红的车 &nbsp; 4. B — 不要钱</p>
 </details>
@@ -858,15 +859,15 @@ var ITEM_INFO = {
   ],
   "scr-1": [
     "Sắp xếp câu 1",
-    "他每天早上开车去工作。"
+    "他每天早上开车去工作，车开得很快。"
   ],
   "scr-2": [
     "Sắp xếp câu 2",
-    "我们早上开始上课，很高兴。"
+    "我家有一辆车，这辆车比那辆车大一点儿。"
   ],
   "scr-3": [
     "Sắp xếp câu 3",
-    "这里的东西是免费的，我很喜欢。"
+    "这里的东西是免费的，我想开始学习。"
   ],
   "read-1": [
     "Đọc hiểu câu 1",
@@ -2967,7 +2968,7 @@ flashShuffleDeck(); flashRender();
 <script>
 // ====== Bài 8: Nghe hội thoại ======
 var DLG_SPEAKERS = [{"color": "#2563eb", "gender": "nam", "id": "ming", "name": "小明", "py": "Xiǎo Míng", "vi": "Minh"}, {"color": "#db2777", "gender": "nữ", "id": "hong", "name": "小红", "py": "Xiǎo Hóng", "vi": "Hồng"}];
-var DLG_LINES = [{"sp": "ming", "zh": "公园免费，我们去公园，好吗？我们明天一起去公园，好吗？我们明天上午去，好吗？"}, {"sp": "hong", "zh": "好！你开车吗？你开车去公园吗？你开车去，好吗？"}, {"sp": "ming", "zh": "我不开车。你开车吗？你开车去公园，好吗？"}, {"sp": "hong", "zh": "我开车。我有一辆车。我开车去公园，好吗？我的车很好。"}, {"sp": "ming", "zh": "我们现在去，好吗？我们一起开车去，好吗？"}, {"sp": "hong", "zh": "好，现在去！我们一起去公园，好吗？"}];
+var DLG_LINES = [{"sp": "ming", "zh": "公园免费，我们明天上午一起去公园，好吗？"}, {"sp": "hong", "zh": "好！你开车吗？你开车去公园吗？你开车去，好吗？"}, {"sp": "ming", "zh": "我不开车。你开车吗？你开车去公园，好吗？"}, {"sp": "hong", "zh": "我开车。我有一辆车。我开车去公园，好吗？我的车很好。"}, {"sp": "ming", "zh": "我们现在去，好吗？我们一起开车去，好吗？"}, {"sp": "hong", "zh": "好，现在去！我们一起去公园，好吗？"}];
 var dlgPlaying = false;
 var dlgPaused = false;
 var dlgRate = 0.88;
