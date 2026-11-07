@@ -649,18 +649,17 @@ img, svg { max-width: 100%; }
 <div class="tts-voice-row"><span class="hint"><b>Giọng đọc:</b></span> <select class="tts-voice-select" id="tts-voice-read" aria-label="Chọn giọng đọc tiếng Trung"></select> <button class="tts-btn" type="button" onclick="previewCommonVoice()">🔊 Nghe thử</button></div><div class="hint" id="tts-voice-note-read">Đang kiểm tra giọng đọc trên thiết bị…</div>
 <div class="reading-zh hide-ruby">
 <section class="read-para">
-<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 0, 0)">🔊 Nghe đoạn này</button></div>
+<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 0, 3)">🔊 Nghe đoạn này</button></div>
 <p class="read-para-text"><ruby>我<rt>Wǒ</rt></ruby><ruby>订<rt>dìng</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>个<rt>gè</rt></ruby><ruby>单<rt>dān</rt></ruby><ruby>人<rt>rén</rt></ruby><ruby>间<rt>jiān</rt></ruby>，<ruby>明<rt>míng</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>宾<rt>bīn</rt></ruby><ruby>馆<rt>guǎn</rt></ruby>。 <ruby>欢<rt>Huān</rt></ruby><ruby>迎<rt>yíng</rt></ruby><ruby>光<rt>guāng</rt></ruby><ruby>临<rt>lín</rt></ruby>！ <ruby>我<rt>Wǒ</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>道<rt>dào</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>规<rt>guī</rt></ruby><ruby>定<rt>dìng</rt></ruby>，<ruby>很<rt>hěn</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>兴<rt>xìng</rt></ruby>。 <ruby>我<rt>Wǒ</rt></ruby><ruby>把<rt>bǎ</rt></ruby><ruby>钱<rt>qián</rt></ruby><ruby>还<rt>huán</rt></ruby><ruby>给<rt>gěi</rt></ruby><ruby>朋<rt>péng</rt></ruby><ruby>友<rt>yǒu</rt></ruby><ruby>了<rt>le</rt></ruby>。</p>
 </section>
 <section class="read-para">
-<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 1, 1)">🔊 Nghe đoạn này</button></div>
+<div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 4, 7)">🔊 Nghe đoạn này</button></div>
 <p class="read-para-text"><ruby>下<rt>Xià</rt></ruby><ruby>午<rt>wǔ</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>宾<rt>bīn</rt></ruby><ruby>馆<rt>guǎn</rt></ruby>，<ruby>服<rt>fú</rt></ruby><ruby>务<rt>wù</rt></ruby><ruby>员<rt>yuán</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>热<rt>rè</rt></ruby><ruby>情<rt>qíng</rt></ruby>。 <ruby>宾<rt>Bīn</rt></ruby><ruby>馆<rt>guǎn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>菜<rt>cài</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huān</rt></ruby>。 <ruby>明<rt>Míng</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>早<rt>zǎo</rt></ruby><ruby>上<rt>shàng</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>餐<rt>cān</rt></ruby><ruby>厅<rt>tīng</rt></ruby><ruby>吃<rt>chī</rt></ruby><ruby>饭<rt>fàn</rt></ruby>。 <ruby>宾<rt>Bīn</rt></ruby><ruby>馆<rt>guǎn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>服<rt>fú</rt></ruby><ruby>务<rt>wù</rt></ruby><ruby>员<rt>yuán</rt></ruby><ruby>说<rt>shuō</rt></ruby>，<ruby>明<rt>míng</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>再<rt>zài</rt></ruby><ruby>来<rt>lái</rt></ruby>。</p>
 </section>
 </div>
-<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["我订了一个单人间，明天去宾馆。欢迎光临！我知道了学校的规定，很高兴。我把钱还给朋友了。", "下午我去宾馆，服务员很热情。宾馆的菜很好，我很喜欢。明天早上，我去餐厅吃饭。宾馆的服务员说，明天再来。"];</script>
+<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["我订了一个单人间，明天去宾馆。", "欢迎光临！", "我知道了学校的规定，很高兴。", "我把钱还给朋友了。", "下午我去宾馆，服务员很热情。", "宾馆的菜很好，我很喜欢。", "明天早上，我去餐厅吃饭。", "宾馆的服务员说，明天再来。"];</script>
 <div class="reading-Controls">
-<button class="tts-btn" onclick="playChunked('read', 0.88)">▶️ Nghe đoạn văn</button>
-<button class="tts-btn" id="chunk-pause-read" onclick="toggleChunkPause('read')">⏸️ Tạm dừng</button>
+<button class="tts-btn dlg-play-btn" id="chunk-play-read" onclick="toggleChunkPlay('read')" title="Nghe / Tạm dừng">▶️</button>
 <button class="tts-btn" onclick="restartChunked('read')">↺ Nghe lại từ đầu</button>
 <button class="tts-btn" onclick="playChunked('read', 0.6)">🐢 Nghe chậm</button>
 <button class="btn-sm" onclick="document.getElementById('read-help').classList.toggle('show')">👁️ Ẩn/Hiện Dịch nghĩa</button>
@@ -3151,6 +3150,7 @@ function dlgSpeak(i, onDone) {
 function playDlgAllFrom(start) {
   if (!('speechSynthesis' in window)) return;
   stopDlg();
+  if (typeof stopChunkedIfPlaying === 'function') { try { stopChunkedIfPlaying(); } catch (e) {} }
   dlgPlaying = true;
   dlgPaused = false;
   dlgIdx = (typeof start === 'number') ? start : 0;
@@ -3193,7 +3193,18 @@ function toggleDlgPlay() {
 }
 function restartDlg() { playDlgAll(); updateDlgPlayBtn(); }
 function stopDlg() { dlgGen++; dlgPlaying = false; dlgPaused = false; if ('speechSynthesis' in window) { window.speechSynthesis.cancel(); window.speechSynthesis.resume(); } updateDlgPlayBtn(); }
-function playDlgLine(i) { stopDlg(); dlgSpeak(i); }
+// Chi dung khi player khac bat dau: chi dung hoi thoai khi no DANG DOC that,
+// khong xoa vi tri da tam dung (an pause roi bam player khac, bam lai ▶️
+// van doc tiep tu cau dang do thay vi doc lai tu dau).
+function stopDlgIfPlaying() { if (dlgPlaying && !dlgPaused) stopDlg(); }
+function playDlgLine(i) {
+  var wasActive = dlgPlaying || dlgPaused;
+  stopDlg();
+  // Dang nghe do thi bam nghe tung cau: giu vi tri tiep tuc o cau vua bam
+  // (bam ▶️ se doc tiep tu cau do). Chua nghe gi thi khong doi vi tri.
+  if (wasActive) { dlgIdx = i; dlgPaused = true; updateDlgPlayBtn(); }
+  dlgSpeak(i);
+}
 function previewDlgVoice(spId) {
   for (var i = 0; i < DLG_LINES.length; i++)
     if (DLG_LINES[i].sp === spId) { playDlgLine(i); return; }
@@ -3323,12 +3334,17 @@ function stopChunked(id) {
     for (var i = 0; i < btns.length; i++) btns[i].textContent = '⏸️ Tạm dừng';
   }
 }
+// Chỉ dừng khi player khác bắt đầu: chỉ dừng player chunked khi nó ĐANG ĐỌC
+// thật, không xóa vị trí đã tạm dừng (giống stopDlgIfPlaying).
+function stopChunkedIfPlaying() {
+  if (chunkCur && chunkCur.playing && !chunkCur.paused) stopChunked();
+}
 function playChunked(id, rate, start, end) {
   if (!('speechSynthesis' in window)) return;
   var chunks = chunkChunks(id);
   if (!chunks.length) return;
   stopChunked();
-  if (typeof stopDlg === 'function') { try { stopDlg(); } catch (e) {} }
+  if (typeof stopDlgIfPlaying === 'function') { try { stopDlgIfPlaying(); } catch (e) {} }
   rate = (typeof chunkRate !== 'undefined' && chunkRate[id]) || rate || 0.88;
   start = (typeof start === 'number') ? start : 0;
   end = (typeof end === 'number') ? end : chunks.length - 1;
@@ -3441,8 +3457,8 @@ function toggleChunkHelp(helpId, btnId) {
 // giọng chung đã chọn; đồng thời dừng mọi chuỗi chunk đang đọc dở.
 function speakRate(text, rate) {
   if (!('speechSynthesis' in window)) return;
-  stopChunked();
-  if (typeof stopDlg === 'function') { try { stopDlg(); } catch (e) {} }
+  stopChunkedIfPlaying();
+  if (typeof stopDlgIfPlaying === 'function') { try { stopDlgIfPlaying(); } catch (e) {} }
   window.speechSynthesis.cancel();
   var u = new SpeechSynthesisUtterance(text);
   u.lang = 'zh-CN'; u.rate = rate || 0.88;
