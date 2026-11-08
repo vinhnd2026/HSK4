@@ -55,23 +55,23 @@ Bấm vào từng ngày bên dưới để mở thẳng trang bài học của n
 | Day 20 | Bài 5 | 签, 室, 套, 厅, 洗衣机 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-20.html) |
 | Day 21 | Bài 5–6 | 以上, 租, 猜, 抽烟, 打扮 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-21.html) |
 | Day 22 | Bài 6 | 戴, 花儿, 开心, 旁边, 巧克力 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-22.html) |
-| Day 23 | Bài 6 | 全家福, 裙子, 沙发, 笑, 小时候 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-23.html) |
-| Day 24 | Bài 6 | 烟, 眼镜, 一模一样, 站, 仔细 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-24.html) |
-| Day 25 | Bài 6–7 | 总是, 包, 表（格）, 成, 存 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-25.html) |
-| Day 26 | Bài 7 | 地址, 翻译, 改, 护照, 换 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-26.html) |
-| Day 27 | Bài 7 | 汇率, 借记卡, 美元, 钱包, 人民币 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-27.html) |
-| Day 28 | Bài 7 | 手续, 手续费, 它, 填（写）, 信用卡 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-28.html) |
-| Day 29 | Bài 7–8 | 修改, 糟糕, 安检, 打开, 打火机 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-29.html) |
-| Day 30 | Bài 8 | 刀, 登机牌, 关, 垃圾箱, 旅行箱 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-30.html) |
-| Day 31 | Bài 8 | 盘, 扔, 身份证件, 水果刀, 脱 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-31.html) |
-| Day 32 | Bài 8–9 | 托盘, 外衣, 箱子, 病毒, 倒霉 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-32.html) |
-| Day 33 | Bài 9 | 掉, 放心, 感染, 开通, 杀毒 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-33.html) |
-| Day 34 | Bài 9 | 删除, 死机, 偷, 退休, U盘 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-34.html) |
-| Day 35 | Bài 9–10 | 文件, 严重, 着急, 重要, 超重 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-35.html) |
-| Day 36 | Bài 10 | 称, 秤, 出发, 电子秤, 航班 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-36.html) |
-| Day 37 | Bài 10 | 回忆, 机场, 来得及, 离开, 联系 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-37.html) |
-| Day 38 | Bài 10 | 美好, 难过, 舍不得, 送, 行李 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-38.html) |
-| Day 39 | Bài 10 | 一路平安, 所以 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-39.html) |
+| Day 23 | Bài 6 | 全家福, 裙子, 沙发, 所以, 笑 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-23.html) |
+| Day 24 | Bài 6 | 小时候, 烟, 眼镜, 一模一样, 站 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-24.html) |
+| Day 25 | Bài 6–7 | 仔细, 总是, 包, 表（格）, 成 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-25.html) |
+| Day 26 | Bài 7 | 存, 地址, 翻译, 改, 护照 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-26.html) |
+| Day 27 | Bài 7 | 换, 汇率, 借记卡, 美元, 钱包 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-27.html) |
+| Day 28 | Bài 7 | 人民币, 手续, 手续费, 它, 填（写） | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-28.html) |
+| Day 29 | Bài 7–8 | 信用卡, 修改, 糟糕, 安检, 打开 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-29.html) |
+| Day 30 | Bài 8 | 打火机, 刀, 登机牌, 关, 垃圾箱 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-30.html) |
+| Day 31 | Bài 8 | 旅行箱, 盘, 扔, 身份证件, 水果刀 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-31.html) |
+| Day 32 | Bài 8–9 | 脱, 托盘, 外衣, 箱子, 病毒 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-32.html) |
+| Day 33 | Bài 9 | 倒霉, 掉, 放心, 感染, 开通 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-33.html) |
+| Day 34 | Bài 9 | 杀毒, 删除, 死机, 偷, 退休 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-34.html) |
+| Day 35 | Bài 9 | U盘, 文件, 严重, 着急, 重要 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-35.html) |
+| Day 36 | Bài 10 | 超重, 称, 秤, 出发, 电子秤 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-36.html) |
+| Day 37 | Bài 10 | 航班, 回忆, 机场, 来得及, 离开 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-37.html) |
+| Day 38 | Bài 10 | 联系, 美好, 难过, 舍不得, 送 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-38.html) |
+| Day 39 | Bài 10 | 行李, 一路平安 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-39.html) |
 
 ## Tài liệu kèm theo
 

@@ -277,7 +277,7 @@ img, svg { max-width: 100%; }
 <button class="btn-sm" onclick="flashNext()">Tiếp ➡</button>
 <button class="btn-sm" onclick="flashReshuffle()">🔀 Trộn lại</button>
 <span class="flash-count" id="flash-count"></span>
-</div></div>
+</div></div><style>#flash-wrap .flash-card{height:216px}#flash-wrap .flash-ex{margin-top:7px;font-size:1.02rem;line-height:2;color:#1e3a8a}#flash-wrap .flash-ex ruby rt{font-size:.52em;color:#2563eb}#flash-wrap .flash-ex-label{font-size:.8rem;font-weight:700;color:#64748b}#flash-wrap .flash-ex-vi{font-size:.86rem;color:#475569}</style>
 <div class="card">
 <h2>1. 同意 — tóngyì · đồng ý <span class="badge">Động từ</span></h2>
 <div class="word-meaning">Nghĩa: <b>đồng ý</b></div>
@@ -596,32 +596,40 @@ img, svg { max-width: 100%; }
 <div class="feedback" id="match-feedback" style="margin-top:10px;"></div>
 </div>
 <div class="card">
-<h2>⚖️ Bài 4: Ngữ pháp — 被字句 (nâng cao: 被……给/让/叫) <span class="badge">Điểm ngữ pháp hôm nay</span></h2>
+<h2>⚖️ Bài 4: Ngữ pháp — 被字句 (nâng cao: 被 / 叫 / 让) <span class="badge">Điểm ngữ pháp hôm nay</span></h2>
 
 <div class="gram-intro">
-<div><b>Công thức:</b> S + 被 + (给/让/叫) + 人 + V + 补语</div>
-<div>被字句 nhấn mạnh người/vật chịu tác động: 他被朋友叫去学校 là anh ấy được bạn gọi đi học, người chịu tác động đứng đầu câu. Trong khẩu ngữ, anh thường gặp 给/让/叫 thay cho 被, ví dụ 他被朋友给带去学校; sau 被 có thể có hoặc không có tác nhân, ví dụ 他被叫去学校 là anh ấy được gọi đi học, không nói ai gọi. Anh nhớ: tác nhân đứng ngay sau 被, trước động từ; động từ thường có bổ ngữ hoặc kết quả đi sau, ví dụ 叫去学校, 带去学校. Lỗi thường gặp là đặt tác nhân sau động từ, hoặc quên 被 mà chỉ nói 叫去学校. Muốn nói ai làm gì mình thì dùng 被……叫/给……</div>
-<div class="gram-mistake"><div><b>⚠️ Lỗi thường gặp:</b> <span style="color:#b91c1c">✗ 他的钱包被偷走了小偷。</span> → <span style="color:#15803d">✓ 他的钱包被小偷偷走了。</span></div><div>Tác nhân (小偷) đứng ngay sau 被, trước động từ; không đặt tác nhân sau động từ.</div></div>
+<div><b>Công thức:</b> S + 被 + (tác nhân) + V + 了 / bổ ngữ</div>
+<div>被字句 nói chủ ngữ là đối tượng CHỊU tác động: S + 被 + (tác nhân) + V + 了/bổ ngữ — động từ phải có 了 hoặc bổ ngữ đi kèm, không đứng trơ trụi. Tác nhân có thể lược khi dùng 被 trơn: 我的自行车被偷了. Trong khẩu ngữ, 被 có thể thay bằng 叫 hoặc 让, nhưng sau 叫/让 BẮT BUỘC có tác nhân: 桌子叫他踢坏了 (đúng) — không lược tác nhân sau 叫/让 được. Khung 被……给 (ví dụ 我的行李被他给拿走了) chỉ là biến thể NHẤN MẠNH trong khẩu ngữ: 给 đứng sau tác nhân để nhấn mạnh, không phải giới từ bị động thay cho 被. Câu chữ 被 thường chỉ sự việc không như ý, nhất là trong khẩu ngữ.</div>
+<div class="gram-mistake"><div><b>⚠️ Lỗi thường gặp:</b> <span style="color:#b91c1c">✗ 桌子叫踢坏了。</span> → <span style="color:#15803d">✓ 桌子叫他踢坏了。</span></div><div>Sau 叫/让 bắt buộc có tác nhân (他); muốn lược tác nhân thì chỉ dùng 被 trơn.</div></div>
 </div>
 <div class="sub" style="margin-bottom:8px;">Nghe 5 ví dụ rồi làm 2 bài tập dưới đây:</div>
-<div class="gram-ex"><button class="tts-btn" onclick="speakRate('他被朋友叫去学校。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>被<rt>bèi</rt></ruby><ruby>朋<rt>péng</rt></ruby><ruby>友<rt>you</rt></ruby><ruby>叫<rt>jiào</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby>。</span> <span class="hint">(Anh ấy được bạn gọi đi học.)</span></div>
-<div class="gram-ex"><button class="tts-btn" onclick="speakRate('他被朋友给带去学校。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>被<rt>bèi</rt></ruby><ruby>朋<rt>péng</rt></ruby><ruby>友<rt>you</rt></ruby><ruby>给<rt>gěi</rt></ruby><ruby>带<rt>dài</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby>。</span> <span class="hint">(Anh ấy được bạn đưa đi học.)</span></div>
-<div class="gram-ex"><button class="tts-btn" onclick="speakRate('他被老师叫去学校。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>被<rt>bèi</rt></ruby><ruby>老<rt>lǎo</rt></ruby><ruby>师<rt>shī</rt></ruby><ruby>叫<rt>jiào</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby>。</span> <span class="hint">(Anh ấy được thầy gọi đi học.)</span></div>
-<div class="gram-ex"><button class="tts-btn" onclick="speakRate('他被朋友给叫去学校。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>被<rt>bèi</rt></ruby><ruby>朋<rt>péng</rt></ruby><ruby>友<rt>you</rt></ruby><ruby>给<rt>gěi</rt></ruby><ruby>叫<rt>jiào</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby>。</span> <span class="hint">(Anh ấy được bạn gọi đi học.)</span></div>
-<div class="gram-ex"><button class="tts-btn" onclick="speakRate('他被叫去学校。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>被<rt>bèi</rt></ruby><ruby>叫<rt>jiào</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby>。</span> <span class="hint">(Anh ấy được gọi đi học.)</span></div>
+<div class="gram-ex"><button class="tts-btn" onclick="speakRate('简历被朋友看完了。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>简<rt>Jiǎn</rt></ruby><ruby>历<rt>lì</rt></ruby><ruby>被<rt>bèi</rt></ruby><ruby>朋<rt>péng</rt></ruby><ruby>友<rt>you</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>完<rt>wán</rt></ruby><ruby>了<rt>le</rt></ruby>。</span> <span class="hint">(CV bị bạn xem hết rồi.)</span></div>
+<div class="gram-ex"><button class="tts-btn" onclick="speakRate('车被开到学校了。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>车<rt>Chē</rt></ruby><ruby>被<rt>bèi</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby><ruby>了<rt>le</rt></ruby>。</span> <span class="hint">(Xe bị lái đến trường rồi.)</span></div>
+<div class="gram-ex"><button class="tts-btn" onclick="speakRate('简历叫朋友看完了。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>简<rt>Jiǎn</rt></ruby><ruby>历<rt>lì</rt></ruby><ruby>叫<rt>jiào</rt></ruby><ruby>朋<rt>péng</rt></ruby><ruby>友<rt>you</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>完<rt>wán</rt></ruby><ruby>了<rt>le</rt></ruby>。</span> <span class="hint">(CV bị bạn xem hết rồi.)</span></div>
+<div class="gram-ex"><button class="tts-btn" onclick="speakRate('车让朋友开到学校了。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>车<rt>Chē</rt></ruby><ruby>让<rt>ràng</rt></ruby><ruby>朋<rt>péng</rt></ruby><ruby>友<rt>you</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby><ruby>了<rt>le</rt></ruby>。</span> <span class="hint">(Xe bị bạn lái đến trường rồi.)</span></div>
+<div class="gram-ex"><button class="tts-btn" onclick="speakRate('他被老师通知去面试了。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>被<rt>bèi</rt></ruby><ruby>老<rt>lǎo</rt></ruby><ruby>师<rt>shī</rt></ruby><ruby>通<rt>tōng</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>试<rt>shì</rt></ruby><ruby>了<rt>le</rt></ruby>。</span> <span class="hint">(Anh ấy được thầy thông báo đi phỏng vấn rồi.)</span></div>
+<h2>⚖️ Bài 4 (thêm): Ngữ pháp — 结果补语 1 — bổ ngữ kết quả (Điểm bổ sung theo sách giáo khoa, Bài 2) <span class="badge">Điểm thứ 2 hôm nay</span></h2>
+
+<div class="gram-intro"><div><b>Công thức:</b> V + 完 / 好 / 见 / 到 / 对 / 错 / 懂 / 清楚 （看完 / 听见 / 说对 / 写错 / 听懂 / 说清楚）; phủ định 没（有）+ V; hỏi V + 没 + V</div><div>Bổ ngữ kết quả do động từ/tính từ đảm nhiệm, chỉ KẾT QUẢ của hành động. Tám từ kết quả thường gặp của sách: 完 (hoàn thành: 看完/吃完), 好 (hoàn thành/chu đáo: 写好/放好), 见 (chỉ đi với 看/听: 看见/听见), 到 (đạt được: 买到/等到/想到), 对 (đúng: 说对/写对), 错 (sai: 写错/打错), 懂 (hiểu: 听懂/看懂), 清楚 (rõ: 听清楚/说清楚). Phủ định: 没（有） đặt trước động từ (không dùng 不). Hỏi: dùng V + 没 + V, hoặc 没有/吗 ở cuối câu — không dùng V + 不 + V. Điểm này dạy bổ ngữ kết quả trong câu thường; cách dùng bên trong câu chữ 把 xem ở g07.</div><div class="gram-mistake"><div><b>⚠️ Lỗi thường gặp:</b> <span style="color:#b91c1c">✗ 你昨天看不看见朋友？</span> → <span style="color:#15803d">✓ 你昨天看没看见朋友？</span></div><div>Hỏi về kết quả đã xảy ra dùng V + 没 + V (看没看见); không dùng 不 trong câu hỏi chính phản của bổ ngữ kết quả.</div></div></div>
+<div class="gram-ex"><button class="tts-btn" onclick="speakRate('他面试完了。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>试<rt>shì</rt></ruby><ruby>完<rt>wán</rt></ruby><ruby>了<rt>le</rt></ruby>。</span> <span class="hint">(Anh ấy phỏng vấn xong rồi.)</span></div>
+<div class="gram-ex"><button class="tts-btn" onclick="speakRate('他说对了。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>说<rt>shuō</rt></ruby><ruby>对<rt>duì</rt></ruby><ruby>了<rt>le</rt></ruby>。</span> <span class="hint">(Anh ấy nói đúng rồi.)</span></div>
+<div class="gram-ex"><button class="tts-btn" onclick="speakRate('朋友听见了。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>朋<rt>Péng</rt></ruby><ruby>友<rt>you</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>见<rt>jiàn</rt></ruby><ruby>了<rt>le</rt></ruby>。</span> <span class="hint">(Bạn nghe thấy rồi.)</span></div>
+<div class="gram-ex"><button class="tts-btn" onclick="speakRate('他没看见朋友。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>没<rt>méi</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>见<rt>jiàn</rt></ruby><ruby>朋<rt>péng</rt></ruby><ruby>友<rt>you</rt></ruby>。</span> <span class="hint">(Anh ấy không nhìn thấy bạn.)</span></div>
+<div class="gram-ex"><button class="tts-btn" onclick="speakRate('你听没听懂？', 0.88)">🔊</button> <span class="hide-ruby"><ruby>你<rt>Nǐ</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>没<rt>méi</rt></ruby><ruby>听<rt>tīng</rt></ruby><ruby>懂<rt>dǒng</rt></ruby>？</span> <span class="hint">(Anh có nghe hiểu không?)</span></div>
 
 <div class="q-item" id="gram-1">
 <div><b>1. 被字句:</b></div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, false, 'gram-1', '✗ Sai: tác nhân phải đứng ngay sau 被 — 他被朋友叫去学校 mới đúng.')">A. 他被叫去学校朋友。</button>
-<button class="mc-btn" onclick="checkMC(this, true, 'gram-1', '✓ Đúng! Tác nhân (朋友) đứng ngay sau 被, trước động từ.')">B. 他被朋友叫去学校。</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'gram-1', '✗ Sai: sau 叫 không được lược tác nhân — phải nói 车叫朋友开到学校了.')">A. 车叫开到学校了。</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'gram-1', '✓ Đúng! Sau 叫/让 bắt buộc có tác nhân (朋友).')">B. 车叫朋友开到学校了。</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 <div class="q-item" id="gram-2">
-<div><b>2. Sửa câu sai sau: 他叫去学校被朋友。:</b></div>
+<div><b>2. Sửa câu sai sau: 简历叫看完了。:</b></div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, true, 'gram-2', '✓ Đúng! 被 đứng trước tác nhân (朋友): 他被朋友叫去学校.')">A. 他被朋友叫去学校。</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'gram-2', '✗ Chưa đúng. 被 đứng trước tác nhân (朋友): 他被朋友叫去学校.')">B. 他叫去学校被朋友。</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'gram-2', '✓ Đúng! Sau 叫/让 bắt buộc có tác nhân (朋友); muốn lược tác nhân thì chỉ dùng 被: 简历被看完了.')">A. 简历叫朋友看完了。</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'gram-2', '✗ Chưa đúng. Sau 叫/让 bắt buộc có tác nhân (朋友); muốn lược tác nhân thì chỉ dùng 被: 简历被看完了.')">B. 简历叫看完了。</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 </div>
@@ -642,28 +650,28 @@ img, svg { max-width: 100%; }
 <div class="card">
 <h2>🧩 Bài 6: Sắp xếp câu (连词成句) <span class="badge">Tư duy trật tự từ</span></h2>
 <div class="sub" style="margin-bottom:8px;">Chạm vào từng từ ở khung xám để ghép thành câu hoàn chỉnh:</div>
-<div class="scramble-box" id="scr-1" data-target="我请了个假，被老师叫去学校，我很同意。">
-<div><b>Câu 1:</b> Tôi đã xin nghỉ một ngày, bị thầy giáo gọi đến trường, tôi rất đồng ý.</div>
+<div class="scramble-box" id="scr-1" data-target="我的简历被朋友看完了。">
+<div><b>Câu 1:</b> Hồ sơ của tôi đã được bạn xem xong.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="，|个|。|假|同意|我|很|去|，|学校|请|被|了|我|老师|叫"></div>
+<div class="word-bank" data-words="。|被|完|了|简历|我的|朋友|看"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
 <div class="scramble-box" id="scr-2" data-target="我做完工作了，早就想去公园了。">
 <div><b>Câu 2:</b> Tôi đã làm xong việc, đã muốn đi công viên từ lâu rồi.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="公园|了|完|。|去|工作|，|我|想|了|就|做|早"></div>
+<div class="word-bank" data-words="我|工作|完|就|了|想|早|公园|。|做|，|了|去"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
 <div class="scramble-box" id="scr-3" data-target="祝你生日快乐！明天我们一起去公园吧。">
 <div><b>Câu 3:</b> Chúc bạn sinh nhật vui vẻ! Ngày mai chúng ta cùng đi công viên nhé.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="一起|快乐|祝|我们|！|。|去|明天|吧|你|公园|生日"></div>
+<div class="word-bank" data-words="公园|！|生日|。|去|快乐|明天|祝|吧|一起|你|我们"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
-<div class="scramble-box" id="scr-4" data-target="他被朋友叫到公园去了，我们都同意了。">
-<div><b>Câu 4:</b> Anh ấy bị bạn gọi đến công viên, chúng tôi đều đồng ý rồi.</div>
+<div class="scramble-box" id="scr-4" data-target="他的车被朋友开到学校去了。">
+<div><b>Câu 4:</b> Xe của anh ấy được bạn lái đến trường rồi.</div>
 <div class="answer-zone"></div>
-<div class="word-bank" data-words="。|去|到|我们|被|朋友|，|了|同意|他|都|了|公园|叫"></div>
+<div class="word-bank" data-words="开|他的|朋友|学校|去|。|到|了|车|被"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
 </div>
@@ -683,10 +691,10 @@ img, svg { max-width: 100%; }
 </section>
 <section class="read-para">
 <div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 8, 9)">🔊 Nghe đoạn này</button></div>
-<p class="read-para-text"><ruby>但<rt>Dàn</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>他<rt>tā</rt></ruby><ruby>对<rt>duì</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>满<rt>mǎn</rt></ruby><ruby>意<rt>yì</rt></ruby>，<ruby>他<rt>tā</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby>。 <ruby>朋<rt>Péng</rt></ruby><ruby>友<rt>you</rt></ruby><ruby>祝<rt>zhù</rt></ruby><ruby>他<rt>tā</rt></ruby><ruby>通<rt>tōng</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>试<rt>shì</rt></ruby>，<ruby>他<rt>tā</rt></ruby><ruby>说<rt>shuō</rt></ruby><ruby>谢<rt>xiè</rt></ruby><ruby>谢<rt>xie</rt></ruby>。</p>
+<p class="read-para-text"><ruby>但<rt>Dàn</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>他<rt>tā</rt></ruby><ruby>对<rt>duì</rt></ruby><ruby>自<rt>zì</rt></ruby><ruby>己<rt>jǐ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>满<rt>mǎn</rt></ruby><ruby>意<rt>yì</rt></ruby>，<ruby>他<rt>tā</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>家<rt>jiā</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>司<rt>sī</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby>。 <ruby>朋<rt>Péng</rt></ruby><ruby>友<rt>you</rt></ruby><ruby>祝<rt>zhù</rt></ruby><ruby>他<rt>tā</rt></ruby><ruby>通<rt>tōng</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>试<rt>shì</rt></ruby>，<ruby>他<rt>tā</rt></ruby><ruby>说<rt>shuō</rt></ruby><ruby>谢<rt>xiè</rt></ruby><ruby>谢<rt>xie</rt></ruby>。</p>
 </section>
 </div>
-<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["小明毕业了，他想去面试。", "他写完简历了，写得很好。", "他给公司发电子邮件。", "公司通知他去面试，他很高兴。", "这场面试很难，但是他不怕。", "如果他通过面试，他就可以去实习了。", "他早就想去实习了，他希望公司同意。", "公司的竞争很厉害，他很累，累死了。", "但是他对工作很满意，他想去工作。", "朋友祝他通过面试，他说谢谢。"];</script>
+<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["小明毕业了，他想去面试。", "他写完简历了，写得很好。", "他给公司发电子邮件。", "公司通知他去面试，他很高兴。", "这场面试很难，但是他不怕。", "如果他通过面试，他就可以去实习了。", "他早就想去实习了，他希望公司同意。", "公司的竞争很厉害，他很累，累死了。", "但是他对自己很满意，他想去这家公司工作。", "朋友祝他通过面试，他说谢谢。"];</script>
 <div class="reading-Controls">
 <button class="tts-btn dlg-play-btn" id="chunk-play-read" onclick="toggleChunkPlay('read')" title="Nghe / Tạm dừng">▶️</button>
 <button class="tts-btn" onclick="restartChunked('read')">↺ Nghe lại từ đầu</button>
@@ -697,7 +705,7 @@ img, svg { max-width: 100%; }
 <div class="reading-help" id="read-help">
 <div class="read-para-trans"><p>Tiểu Minh tốt nghiệp, anh ấy muốn đi phỏng vấn. Anh ấy viết xong sơ yếu lý lịch, viết rất tốt. Anh ấy gửi thư điện tử cho công ty. Công ty thông báo anh ấy đi phỏng vấn, anh ấy rất vui.</p></div>
 <div class="read-para-trans"><p>Buổi phỏng vấn này rất khó, nhưng anh ấy không sợ. Nếu anh ấy qua phỏng vấn, anh ấy có thể đi thực tập. Anh ấy đã muốn đi thực tập từ lâu, anh ấy hy vọng công ty đồng ý. Sự cạnh tranh của công ty rất khốc liệt, anh ấy rất mệt, mệt chết đi được.</p></div>
-<div class="read-para-trans"><p>Nhưng anh ấy rất hài lòng với công việc, anh ấy muốn đi làm. Bạn chúc anh ấy qua phỏng vấn, anh ấy nói cảm ơn.</p></div>
+<div class="read-para-trans"><p>Nhưng anh ấy rất hài lòng với bản thân, anh ấy muốn làm việc ở công ty này. Bạn chúc anh ấy qua phỏng vấn, anh ấy nói cảm ơn.</p></div>
 </div>
 </div>
 <div class="q-item read-q" id="read-1">
@@ -756,7 +764,7 @@ img, svg { max-width: 100%; }
 <div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>是<rt>Shì</rt></ruby><ruby>的<rt>de</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>早<rt>zǎo</rt></ruby><ruby>就<rt>jiù</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>实<rt>shí</rt></ruby><ruby>习<rt>xí</rt></ruby><ruby>了<rt>le</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>希<rt>xī</rt></ruby><ruby>望<rt>wàng</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>司<rt>sī</rt></ruby><ruby>同<rt>tóng</rt></ruby><ruby>意<rt>yì</rt></ruby>。</span><div class="dlg-vi">Đúng, tôi đã muốn đi thực tập từ lâu, tôi hy vọng công ty đồng ý.</div></div>
 <div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>公<rt>Gōng</rt></ruby><ruby>司<rt>sī</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>竞<rt>jìng</rt></ruby><ruby>争<rt>zhēng</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>厉<rt>lì</rt></ruby><ruby>害<rt>hai</rt></ruby>，<ruby>你<rt>nǐ</rt></ruby><ruby>累<rt>lèi</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Sự cạnh tranh của công ty rất khốc liệt, bạn mệt không?</div></div>
 <div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>我<rt>Wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>累<rt>lèi</rt></ruby>，<ruby>累<rt>lèi</rt></ruby><ruby>死<rt>sǐ</rt></ruby><ruby>了<rt>le</rt></ruby>，<ruby>但<rt>dàn</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>对<rt>duì</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>满<rt>mǎn</rt></ruby><ruby>意<rt>yì</rt></ruby>。</span><div class="dlg-vi">Tôi rất mệt, mệt chết đi được, nhưng tôi rất hài lòng với công việc.</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>我<rt>Wǒ</rt></ruby><ruby>祝<rt>zhù</rt></ruby><ruby>你<rt>nǐ</rt></ruby><ruby>通<rt>tōng</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>试<rt>shì</rt></ruby>，<ruby>你<rt>nǐ</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>定<rt>dìng</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>的<rt>de</rt></ruby>。</span><div class="dlg-vi">Tôi chúc bạn qua phỏng vấn, bạn nhất định làm được.</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>我<rt>Wǒ</rt></ruby><ruby>祝<rt>zhù</rt></ruby><ruby>你<rt>nǐ</rt></ruby><ruby>通<rt>tōng</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>试<rt>shì</rt></ruby>，<ruby>你<rt>nǐ</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>定<rt>dìng</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>呀<rt>ya</rt></ruby>。</span><div class="dlg-vi">Tôi chúc bạn qua phỏng vấn, bạn nhất định làm được.</div></div>
 <div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>谢<rt>Xiè</rt></ruby><ruby>谢<rt>xie</rt></ruby><ruby>你<rt>nǐ</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>希<rt>xī</rt></ruby><ruby>望<rt>wàng</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>通<rt>tōng</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>试<rt>shì</rt></ruby>。</span><div class="dlg-vi">Cảm ơn bạn, tôi hy vọng tôi có thể qua phỏng vấn.</div></div>
 <div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>如<rt>Rú</rt></ruby><ruby>果<rt>guǒ</rt></ruby><ruby>你<rt>nǐ</rt></ruby><ruby>通<rt>tōng</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>试<rt>shì</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>起<rt>qǐ</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>吃<rt>chī</rt></ruby><ruby>饭<rt>fàn</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Nếu bạn qua phỏng vấn, chúng ta cùng đi ăn cơm, được không?</div></div>
 </div>
@@ -792,10 +800,10 @@ img, svg { max-width: 100%; }
 <div class="q-item" id="dlg-4">
 <div><b>Câu 4.</b> 小红祝小明做什么？</div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小红：我祝你通过面试，你一定可以的。')">A. 去学习</button>
-<button class="mc-btn" onclick="checkMC(this, true, 'dlg-4', '✓ Chính xác！小红：我祝你通过面试，你一定可以的。')">B. 通过面试</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小红：我祝你通过面试，你一定可以的。')">C. 去工作</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小红：我祝你通过面试，你一定可以的。')">D. 去实习</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小红：我祝你通过面试，你一定可以的呀。')">A. 去学习</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'dlg-4', '✓ Chính xác！小红：我祝你通过面试，你一定可以的呀。')">B. 通过面试</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小红：我祝你通过面试，你一定可以的呀。')">C. 去工作</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小红：我祝你通过面试，你一定可以的呀。')">D. 去实习</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 </div>
@@ -839,9 +847,9 @@ img, svg { max-width: 100%; }
 <p><b>Bài 2 (Nghe):</b> Câu 1: D — 我同意你的想法。 &nbsp;|&nbsp; Câu 2: C — 我希望明年去中国学习。</p>
 <p><b>Bài phụ (Pinyin):</b> Câu 1: B — tóngyì &nbsp;|&nbsp; Câu 2: A — wán</p>
 <p><b>Bài 3 (Ghép cặp):</b> 同意 = tóngyì · 完 = wán · 希望 = xīwàng · 早就……了 = zǎojiù……le · 祝 = zhù</p>
-<p><b>Bài 4 (Ngữ pháp):</b> 1. B — 他被朋友叫去学校。 &nbsp;|&nbsp; 2. A — 他被朋友叫去学校。</p>
+<p><b>Bài 4 (Ngữ pháp):</b> 1. B — 车叫朋友开到学校了。 &nbsp;|&nbsp; 2. A — 简历叫朋友看完了。</p>
 <p><b>Bài 5 (Đoạn văn):</b> 同意 → 完 → 希望 → 早就……了 → 祝</p>
-<p><b>Bài 6 (Sắp xếp câu):</b><br>1. 我请了个假，被老师叫去学校，我很同意。<br>2. 我做完工作了，早就想去公园了。<br>3. 祝你生日快乐！明天我们一起去公园吧。<br>4. 他被朋友叫到公园去了，我们都同意了。</p>
+<p><b>Bài 6 (Sắp xếp câu):</b><br>1. 我的简历被朋友看完了。<br>2. 我做完工作了，早就想去公园了。<br>3. 祝你生日快乐！明天我们一起去公园吧。<br>4. 他的车被朋友开到学校去了。</p>
 <p><b>Bài 7 (Đọc hiểu):</b> 1. D — 去面试 &nbsp;|&nbsp; 2. C — 很厉害 &nbsp;|&nbsp; 3. D — 同意他去实习</p>
 <p><b>Bài 8 (Nghe hội thoại):</b> 1. A — 简历 &nbsp; 2. D — 去面试 &nbsp; 3. C — 去实习 &nbsp; 4. B — 通过面试</p>
 </details>
@@ -924,11 +932,11 @@ var ITEM_INFO = {
   ],
   "gram-1": [
     "Ngữ pháp 1",
-    "B — 他被朋友叫去学校。"
+    "B — 车叫朋友开到学校了。"
   ],
   "gram-2": [
     "Ngữ pháp 2",
-    "A — 他被朋友叫去学校。"
+    "A — 简历叫朋友看完了。"
   ],
   "cloze-task": [
     "Đoạn văn (5 chỗ trống)",
@@ -936,7 +944,7 @@ var ITEM_INFO = {
   ],
   "scr-1": [
     "Sắp xếp câu 1",
-    "我请了个假，被老师叫去学校，我很同意。"
+    "我的简历被朋友看完了。"
   ],
   "scr-2": [
     "Sắp xếp câu 2",
@@ -948,7 +956,7 @@ var ITEM_INFO = {
   ],
   "scr-4": [
     "Sắp xếp câu 4",
-    "他被朋友叫到公园去了，我们都同意了。"
+    "他的车被朋友开到学校去了。"
   ],
   "read-1": [
     "Đọc hiểu câu 1",
@@ -1472,6 +1480,9 @@ var LOCAL_PY_DICT = {
   ],
   "shafa": [
     "沙发"
+  ],
+  "suoyi": [
+    "所以"
   ],
   "xiao": [
     "笑",
@@ -2224,6 +2235,9 @@ var LOCAL_PY_DICT = {
   ],
   "fa": [
     "发"
+  ],
+  "suo": [
+    "所"
   ],
   "hou": [
     "候"
@@ -3006,7 +3020,7 @@ restore();
 </script>
 <script>
 // ====== Flashcard ôn tập (mọi từ đã học các ngày trước; chiều thẻ ngẫu nhiên) ======
-var FLASH_DATA = [{"word": "请假", "pinyin": "qǐngjià", "hanviet": "thỉnh giả", "meaning": "xin nghỉ phép"}, {"word": "热情", "pinyin": "rèqíng", "hanviet": "nhiệt tình", "meaning": "nhiệt tình; nồng nhiệt"}, {"word": "宿舍", "pinyin": "sùshè", "hanviet": "túc xá", "meaning": "ký túc xá"}, {"word": "一会儿", "pinyin": "yíhuìr", "hanviet": "nhất hội nhi", "meaning": "một lát; một lúc"}, {"word": "有的", "pinyin": "yǒude", "hanviet": "hữu đích", "meaning": "có (một số)…; có người…"}, {"word": "国庆节", "pinyin": "Guóqìngjié", "hanviet": "quốc khánh tiết", "meaning": "Quốc khánh (Tết Quốc khánh Trung Quốc)"}, {"word": "中秋节", "pinyin": "Zhōngqiūjié", "hanviet": "trung thu tiết", "meaning": "Tết Trung thu"}, {"word": "毕业", "pinyin": "bìyè", "hanviet": "tất nghiệp", "meaning": "tốt nghiệp"}, {"word": "场", "pinyin": "chǎng", "hanviet": "trường", "meaning": "sân, bãi; buổi, trận (lượng từ)"}, {"word": "（电子）邮件", "pinyin": "(diànzǐ)yóujiàn", "hanviet": "（điện tử）bưu kiện", "meaning": "thư điện tử, email"}, {"word": "简历", "pinyin": "jiǎnlì", "hanviet": "giản lịch", "meaning": "sơ yếu lý lịch; CV"}, {"word": "竞争", "pinyin": "jìngzhēng", "hanviet": "cạnh tranh", "meaning": "cạnh tranh"}, {"word": "厉害", "pinyin": "lìhai", "hanviet": "lợi hại", "meaning": "giỏi, lợi hại; ghê gớm"}, {"word": "满意", "pinyin": "mǎnyì", "hanviet": "mãn ý", "meaning": "hài lòng; vừa ý"}, {"word": "面试", "pinyin": "miànshì", "hanviet": "diện thí", "meaning": "phỏng vấn"}, {"word": "如果", "pinyin": "rúguǒ", "hanviet": "như quả", "meaning": "nếu"}, {"word": "实习", "pinyin": "shíxí", "hanviet": "thực tập", "meaning": "thực tập"}, {"word": "死", "pinyin": "sǐ", "hanviet": "tử", "meaning": "chết"}, {"word": "通过", "pinyin": "tōngguò", "hanviet": "thông qua", "meaning": "thông qua; vượt qua"}, {"word": "通知", "pinyin": "tōngzhī", "hanviet": "thông tri", "meaning": "thông báo"}];
+var FLASH_DATA = [{"word": "请假", "pinyin": "qǐngjià", "hanviet": "thỉnh giả", "meaning": "xin nghỉ phép", "exr": "<ruby>我<rt>Wǒ</rt></ruby><ruby>今<rt>jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>生<rt>shēng</rt></ruby><ruby>病<rt>bìng</rt></ruby><ruby>了<rt>le</rt></ruby>，<ruby>要<rt>yào</rt></ruby><ruby>请<rt>qǐng</rt></ruby><ruby>假<rt>jià</rt></ruby>。", "exv": "Hôm nay tôi bị ốm, phải xin nghỉ phép."}, {"word": "热情", "pinyin": "rèqíng", "hanviet": "nhiệt tình", "meaning": "nhiệt tình; nồng nhiệt", "exr": "<ruby>中<rt>Zhōng</rt></ruby><ruby>国<rt>guó</rt></ruby><ruby>人<rt>rén</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>热<rt>rè</rt></ruby><ruby>情<rt>qíng</rt></ruby>。", "exv": "Người Trung Quốc rất nhiệt tình."}, {"word": "宿舍", "pinyin": "sùshè", "hanviet": "túc xá", "meaning": "ký túc xá", "exr": "<ruby>我<rt>Wǒ</rt></ruby><ruby>住<rt>zhù</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>宿<rt>sù</rt></ruby><ruby>舍<rt>shè</rt></ruby><ruby>里<rt>lǐ</rt></ruby>。", "exv": "Tôi ở trong ký túc xá của trường."}, {"word": "一会儿", "pinyin": "yíhuìr", "hanviet": "nhất hội nhi", "meaning": "một lát; một lúc", "exr": "<ruby>请<rt>Qǐng</rt></ruby><ruby>等<rt>děng</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>会<rt>huì</rt></ruby><ruby>儿<rt>ér</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>马<rt>mǎ</rt></ruby><ruby>上<rt>shàng</rt></ruby><ruby>来<rt>lái</rt></ruby>。", "exv": "Xin chờ một lát, tôi đến ngay."}, {"word": "有的", "pinyin": "yǒude", "hanviet": "hữu đích", "meaning": "có (một số)…; có người…", "exr": "<ruby>有<rt>Yǒu</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>生<rt>shēng</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huan</rt></ruby><ruby>唱<rt>chàng</rt></ruby><ruby>歌<rt>gē</rt></ruby>，<ruby>有<rt>yǒu</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huan</rt></ruby><ruby>跳<rt>tiào</rt></ruby><ruby>舞<rt>wǔ</rt></ruby>。", "exv": "Có học sinh thích hát, có học sinh thích nhảy múa."}, {"word": "国庆节", "pinyin": "Guóqìngjié", "hanviet": "quốc khánh tiết", "meaning": "Quốc khánh (Tết Quốc khánh Trung Quốc)", "exr": "<ruby>国<rt>Guó</rt></ruby><ruby>庆<rt>qìng</rt></ruby><ruby>节<rt>jié</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>北<rt>Běi</rt></ruby><ruby>京<rt>jīng</rt></ruby><ruby>玩<rt>wán</rt></ruby>。", "exv": "Quốc khánh chúng tôi đi Bắc Kinh chơi."}, {"word": "中秋节", "pinyin": "Zhōngqiūjié", "hanviet": "trung thu tiết", "meaning": "Tết Trung thu", "exr": "<ruby>中<rt>Zhōng</rt></ruby><ruby>秋<rt>qiū</rt></ruby><ruby>节<rt>jié</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>起<rt>qǐ</rt></ruby><ruby>吃<rt>chī</rt></ruby><ruby>月<rt>yuè</rt></ruby><ruby>饼<rt>bing</rt></ruby>。", "exv": "Tết Trung thu chúng tôi cùng nhau ăn bánh trung thu."}, {"word": "毕业", "pinyin": "bìyè", "hanviet": "tất nghiệp", "meaning": "tốt nghiệp", "exr": "<ruby>我<rt>Wǒ</rt></ruby><ruby>今<rt>jīn</rt></ruby><ruby>年<rt>nián</rt></ruby><ruby>六<rt>liù</rt></ruby><ruby>月<rt>yuè</rt></ruby><ruby>大<rt>dà</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>毕<rt>bì</rt></ruby><ruby>业<rt>yè</rt></ruby>。", "exv": "Tôi tháng sáu năm nay tốt nghiệp đại học."}, {"word": "场", "pinyin": "chǎng", "hanviet": "trường", "meaning": "sân, bãi; buổi, trận (lượng từ)", "exr": "<ruby>我<rt>Wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>电<rt>diàn</rt></ruby><ruby>影<rt>yǐng</rt></ruby><ruby>吧<rt>ba</rt></ruby>。", "exv": "Chúng ta đi xem một buổi phim nhé."}, {"word": "（电子）邮件", "pinyin": "(diànzǐ)yóujiàn", "hanviet": "（điện tử）bưu kiện", "meaning": "thư điện tử, email", "exr": "<ruby>请<rt>Qǐng</rt></ruby><ruby>给<rt>gěi</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>发<rt>fā</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>封<rt>fēng</rt></ruby>（<ruby>电<rt>diàn</rt></ruby><ruby>子<rt>zǐ</rt></ruby>）<ruby>邮<rt>yóu</rt></ruby><ruby>件<rt>jiàn</rt></ruby>。", "exv": "Xin hãy gửi cho tôi một email."}, {"word": "简历", "pinyin": "jiǎnlì", "hanviet": "giản lịch", "meaning": "sơ yếu lý lịch; CV", "exr": "<ruby>我<rt>Wǒ</rt></ruby><ruby>把<rt>bǎ</rt></ruby><ruby>简<rt>jiǎn</rt></ruby><ruby>历<rt>lì</rt></ruby><ruby>发<rt>fā</rt></ruby><ruby>给<rt>gěi</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>司<rt>sī</rt></ruby><ruby>了<rt>le</rt></ruby>。", "exv": "Tôi đã gửi sơ yếu lý lịch cho công ty rồi."}, {"word": "竞争", "pinyin": "jìngzhēng", "hanviet": "cạnh tranh", "meaning": "cạnh tranh", "exr": "<ruby>现<rt>Xiàn</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>找<rt>zhǎo</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby><ruby>竞<rt>jìng</rt></ruby><ruby>争<rt>zhēng</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>厉<rt>lì</rt></ruby><ruby>害<rt>hai</rt></ruby>。", "exv": "Bây giờ tìm việc cạnh tranh rất gay gắt."}, {"word": "厉害", "pinyin": "lìhai", "hanviet": "lợi hại", "meaning": "giỏi, lợi hại; ghê gớm", "exr": "<ruby>她<rt>Tā</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>汉<rt>Hàn</rt></ruby><ruby>语<rt>yǔ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>厉<rt>lì</rt></ruby><ruby>害<rt>hai</rt></ruby>。", "exv": "Tiếng Hán của cô ấy rất giỏi."}, {"word": "满意", "pinyin": "mǎnyì", "hanviet": "mãn ý", "meaning": "hài lòng; vừa ý", "exr": "<ruby>我<rt>Wǒ</rt></ruby><ruby>对<rt>duì</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>份<rt>fèn</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>满<rt>mǎn</rt></ruby><ruby>意<rt>yì</rt></ruby>。", "exv": "Tôi rất hài lòng với công việc này."}, {"word": "面试", "pinyin": "miànshì", "hanviet": "diện thí", "meaning": "phỏng vấn", "exr": "<ruby>明<rt>Míng</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>要<rt>yào</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>司<rt>sī</rt></ruby><ruby>面<rt>miàn</rt></ruby><ruby>试<rt>shì</rt></ruby>。", "exv": "Ngày mai tôi phải đến công ty phỏng vấn."}, {"word": "如果", "pinyin": "rúguǒ", "hanviet": "như quả", "meaning": "nếu", "exr": "<ruby>如<rt>Rú</rt></ruby><ruby>果<rt>guǒ</rt></ruby><ruby>明<rt>míng</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>下<rt>xià</rt></ruby><ruby>雨<rt>yǔ</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>就<rt>jiù</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>了<rt>le</rt></ruby>。", "exv": "Nếu ngày mai mưa, chúng tôi sẽ không đi nữa."}, {"word": "实习", "pinyin": "shíxí", "hanviet": "thực tập", "meaning": "thực tập", "exr": "<ruby>我<rt>Wǒ</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>北<rt>Běi</rt></ruby><ruby>京<rt>jīng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>一<rt>yì</rt></ruby><ruby>家<rt>jiā</rt></ruby><ruby>公<rt>gōng</rt></ruby><ruby>司<rt>sī</rt></ruby><ruby>实<rt>shí</rt></ruby><ruby>习<rt>xí</rt></ruby>。", "exv": "Tôi đang thực tập ở một công ty tại Bắc Kinh."}, {"word": "死", "pinyin": "sǐ", "hanviet": "tử", "meaning": "chết", "exr": "<ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>累<rt>lèi</rt></ruby><ruby>死<rt>sǐ</rt></ruby><ruby>了<rt>le</rt></ruby>。", "exv": "Hôm nay tôi mệt chết đi được."}, {"word": "通过", "pinyin": "tōngguò", "hanviet": "thông qua", "meaning": "thông qua; vượt qua", "exr": "<ruby>他<rt>Tā</rt></ruby><ruby>通<rt>tōng</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>汉<rt>Hàn</rt></ruby><ruby>语<rt>yǔ</rt></ruby><ruby>考<rt>kǎo</rt></ruby><ruby>试<rt>shì</rt></ruby>。", "exv": "Anh ấy đã vượt qua kỳ thi tiếng Hán."}, {"word": "通知", "pinyin": "tōngzhī", "hanviet": "thông tri", "meaning": "thông báo", "exr": "<ruby>老<rt>Lǎo</rt></ruby><ruby>师<rt>shī</rt></ruby><ruby>通<rt>tōng</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>明<rt>míng</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>考<rt>kǎo</rt></ruby><ruby>试<rt>shì</rt></ruby>。", "exv": "Thầy giáo thông báo với chúng tôi ngày mai thi."}];
 var flashDeck = [], flashIdx = 0;
 function flashShuffleDeck() {
   flashDeck = FLASH_DATA.map(function (w) { return { w: w, hanziFront: Math.random() < 0.5 }; });
@@ -3020,11 +3034,11 @@ function flashRender() {
   var cur = flashDeck[flashIdx], w = cur.w;
   var front = document.getElementById('flash-front'), back = document.getElementById('flash-back');
   if (cur.hanziFront) {
-    front.innerHTML = '<div class="flash-tag">Chữ Hán</div><div class="flash-hanzi">' + w.word + '</div><div class="flash-sub">Chạm giữa để lật · góc trái/phải để chuyển thẻ</div>';
-    back.innerHTML = '<div class="flash-tag">Nghĩa</div><div class="flash-meaning">' + w.meaning + '</div><div class="flash-sub">' + w.pinyin + ' · Hán Việt: ' + w.hanviet + '</div>';
+    front.innerHTML = '<div class="flash-hanzi">' + w.word + '</div>';
+    back.innerHTML = '<div class="flash-meaning">' + w.meaning + '</div><div class="flash-sub">' + w.pinyin + ' · Hán Việt: ' + w.hanviet + '</div>' + (w.exr ? '<div class="flash-ex"><span class="flash-ex-label">Ví dụ: </span>' + w.exr + '</div><div class="flash-ex-vi">' + w.exv + '</div>' : '');
   } else {
-    front.innerHTML = '<div class="flash-tag">Nghĩa tiếng Việt</div><div class="flash-meaning">' + w.meaning + '</div><div class="flash-sub">Chạm giữa để lật · góc trái/phải để chuyển thẻ</div>';
-    back.innerHTML = '<div class="flash-tag">Chữ Hán</div><div class="flash-hanzi">' + w.word + '</div><div class="flash-sub">' + w.pinyin + ' · Hán Việt: ' + w.hanviet + '</div>';
+    front.innerHTML = '<div class="flash-meaning">' + w.meaning + '</div>';
+    back.innerHTML = '<div class="flash-hanzi">' + w.word + '</div><div class="flash-sub">' + w.pinyin + ' · Hán Việt: ' + w.hanviet + '</div>' + (w.exr ? '<div class="flash-ex"><span class="flash-ex-label">Ví dụ: </span>' + w.exr + '</div><div class="flash-ex-vi">' + w.exv + '</div>' : '');
   }
   document.getElementById('flash-card').classList.remove('flipped');
   document.getElementById('flash-count').textContent = 'Thẻ ' + (flashIdx + 1) + ' / ' + flashDeck.length;
@@ -3049,7 +3063,7 @@ flashShuffleDeck(); flashRender();
 <script>
 // ====== Bài 8: Nghe hội thoại ======
 var DLG_SPEAKERS = [{"color": "#2563eb", "gender": "nam", "id": "ming", "name": "小明", "py": "Xiǎo Míng", "vi": "Minh"}, {"color": "#db2777", "gender": "nữ", "id": "hong", "name": "小红", "py": "Xiǎo Hóng", "vi": "Hồng"}];
-var DLG_LINES = [{"sp": "ming", "zh": "你毕业了吗？你想去面试吗？"}, {"sp": "hong", "zh": "我毕业了，我想去面试，你呢？"}, {"sp": "ming", "zh": "我也想去面试，我写完简历了。"}, {"sp": "hong", "zh": "你的简历写得很好，你发电子邮件给公司了吗？"}, {"sp": "ming", "zh": "我发电子邮件了，公司通知我去面试。"}, {"sp": "hong", "zh": "这场面试很难，你怕吗？"}, {"sp": "ming", "zh": "我不怕，如果我通过面试，我就可以去实习了。"}, {"sp": "hong", "zh": "你早就想去实习了，是吗？"}, {"sp": "ming", "zh": "是的，我早就想去实习了，我希望公司同意。"}, {"sp": "hong", "zh": "公司的竞争很厉害，你累吗？"}, {"sp": "ming", "zh": "我很累，累死了，但是我对工作很满意。"}, {"sp": "hong", "zh": "我祝你通过面试，你一定可以的。"}, {"sp": "ming", "zh": "谢谢你，我希望我可以通过面试。"}, {"sp": "hong", "zh": "如果你通过面试，我们一起去吃饭，好吗？"}];
+var DLG_LINES = [{"sp": "ming", "zh": "你毕业了吗？你想去面试吗？"}, {"sp": "hong", "zh": "我毕业了，我想去面试，你呢？"}, {"sp": "ming", "zh": "我也想去面试，我写完简历了。"}, {"sp": "hong", "zh": "你的简历写得很好，你发电子邮件给公司了吗？"}, {"sp": "ming", "zh": "我发电子邮件了，公司通知我去面试。"}, {"sp": "hong", "zh": "这场面试很难，你怕吗？"}, {"sp": "ming", "zh": "我不怕，如果我通过面试，我就可以去实习了。"}, {"sp": "hong", "zh": "你早就想去实习了，是吗？"}, {"sp": "ming", "zh": "是的，我早就想去实习了，我希望公司同意。"}, {"sp": "hong", "zh": "公司的竞争很厉害，你累吗？"}, {"sp": "ming", "zh": "我很累，累死了，但是我对工作很满意。"}, {"sp": "hong", "zh": "我祝你通过面试，你一定可以的呀。"}, {"sp": "ming", "zh": "谢谢你，我希望我可以通过面试。"}, {"sp": "hong", "zh": "如果你通过面试，我们一起去吃饭，好吗？"}];
 var dlgPlaying = false;
 var dlgPaused = false;
 var dlgRate = 0.88;
