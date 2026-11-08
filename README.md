@@ -1,6 +1,6 @@
 # HSK 4 — Bài học mỗi ngày
 
-Bộ bài học HSK 4: 39 ngày, mỗi ngày 5 từ mới, học từ Bài 1 đến Bài 10. Tổng 191 từ / 39 ngày.
+Bộ bài học HSK 4: 39 ngày, mỗi ngày 5 từ mới, học từ Bài 1 đến Bài 10. Tổng 192 từ / 39 ngày.
 
 👉 **Mở trang mục lục (đầy đủ 39 ngày):**
 
@@ -71,7 +71,7 @@ Bấm vào từng ngày bên dưới để mở thẳng trang bài học của n
 | Day 36 | Bài 10 | 称, 秤, 出发, 电子秤, 航班 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-36.html) |
 | Day 37 | Bài 10 | 回忆, 机场, 来得及, 离开, 联系 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-37.html) |
 | Day 38 | Bài 10 | 美好, 难过, 舍不得, 送, 行李 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-38.html) |
-| Day 39 | Bài 10 | 一路平安 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-39.html) |
+| Day 39 | Bài 10 | 一路平安, 所以 | [Mở bài học](https://vinhnd2026.github.io/HSK4/Day-39.html) |
 
 ## Tài liệu kèm theo
 
